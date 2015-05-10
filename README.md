@@ -1,6 +1,7 @@
 AirQuality
 ===========================================
-        Get data from http://113.108.142.147:20035/emcpublish/ and parse them, finally save the data into the database
+        Get data from http://113.108.142.147:20035/emcpublish/ and parse them,
+        finally save the data into the database
 
 #Component
 
@@ -10,7 +11,9 @@ AirQuality
 #Usage
         If you read all my code and construct the database like mine, then you can execute the total.py file directly.
 
+        `
         python3 total.py
+        `
 
         Please change your own config.ini. I offer a sample as config_demo.ini
 
