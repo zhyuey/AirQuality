@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*~
+*.bin
+*.xml
+*.class
+*.bak
+*.swp
+*.orig
+*.BASE*
+*.LOCAL*
+*.REMOTE*
+data
+*.egg-info
+build
+dist
