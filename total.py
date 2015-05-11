@@ -13,6 +13,9 @@ else:
 
 dt = datetime.datetime.now()
 
+if not os.path.exists('./database'):
+    os.mkdir(r'./database')
+
 dtstr = dt.strftime("./database/%Y-%m-%d-%H-%M")
 if not use_existFile:
     filename = dtstr + ".txt"
