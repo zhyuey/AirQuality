@@ -15,7 +15,8 @@ AirQuality
         then you can execute the total.py file directly.
 
 ```
-        python3 main.py
+        python3 main_city.py
+	python3 main_station.py
 ```
 
         Please change your own config.ini. I offer a sample as config_demo.ini

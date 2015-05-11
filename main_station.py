@@ -16,10 +16,10 @@ else:
 
 dt = datetime.datetime.now()
 
-if not os.path.exists('./database'):
-    os.mkdir(r'./database')
+if not os.path.exists('./database_station'):
+    os.mkdir(r'./database_station')
 
-dtstr = dt.strftime("./database/%Y-%m-%d-%H-%M")
+dtstr = dt.strftime("./database_station/%Y-%m-%d-%H-%M")
 if not use_existFile:
     filename = dtstr + ".txt"
     cmd1 = "python3 air_station.py " + filename
